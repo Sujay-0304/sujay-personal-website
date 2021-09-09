@@ -1,0 +1,74 @@
+<%- include('partials/header') %>
+
+<nav class="navbar nav_side">
+    <div class="content">
+      <div class="logo">
+        <img class="slogo"src="images/slogo.png" alt="">
+
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times" style="color:red"></i>
+        </div>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/about_me">About me</a></li>
+        <li><a href="/skills">My Skills</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contact_me">Contact me</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars" style="color:aqua"></i>
+      </div>
+    </div>
+  </nav>
+<div class="contact_me_side">
+<div id="box-span" class="box-span" >
+    <div class="border"> 
+    <div class="flex">
+     <span class="alpha alpha_side_four" >C</span >
+     <span class="alpha alpha_side_four">o</span >
+     <span class="alpha alpha_side_four">n</span >
+     <span class="alpha alpha_side_four">t</span >
+     <span class="alpha alpha_side_four">a</span >
+     <span class="alpha alpha_side_four">c</span >
+     <span class="alpha alpha_side_four">t</span >
+      <div class="me"></div>
+     <span class="alpha alpha_side_four">m</span >
+     <span class="alpha alpha_side_four">e</span >
+    
+  
+     </div>
+  </div>
+  </div>
+  <form  action="https://formsubmit.co/sujaysy0006@gmail.com" method="POST"> 
+       <div class="container5" >
+      
+         <div class="wrapper">
+           <div class="contact_form contact_form_side">
+           
+             <div class="inputfields">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_subject" value="New submission!">
+                 <input type="text" class="sameinput" name="name" placeholder="name" required>
+                 <input type="email" class="sameinput" name="email"placeholder="email" required>
+                 <input type="text" class="sameinput" name="subject"placeholder="subject" required>
+              <input type="hidden" name="_next" value="http://localhost:3000/thanks">
+
+                 <!-- <input type="text" placeholder=""> -->
+             </div>
+             <div class="msg">
+               <textarea placeholder="message" class="samemsg" name="message"></textarea>
+               
+              <div class="btn samemsg"><button  class="button">send</button> </div> 
+             
+             </div>
+          
+           </div>
+         </div>
+    
+          <!--    -->
+        </div>
+      </form>
+
+    </div>        
+      <%- include('partials/footer') %>
